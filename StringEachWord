@@ -1,0 +1,16 @@
+
+#RevsStringEachWord
+
+String name = "india is my country";
+		
+		String name2[] = name.split(" ");
+		
+		String rev = " ";
+		
+		for(int i=name2.length-1;i>=0;i--) {
+			
+			
+			rev = rev + name2[i]+" ";
+			
+		}
+		System.out.println(rev);
